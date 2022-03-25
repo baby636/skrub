@@ -22,7 +22,9 @@
   "scripts": {
     "test": "xo '!*.es5.js' && ava",
     "prebenchmark": "babel benchmark/index.benchmark.js -o benchmark/index.benchmark.es5.js",
-    "benchmark": "node benchmark/index.benchmark.es5.js"
+    "benchmark": "node benchmark/index.benchmark.es5.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "files": [
     "index.js"
@@ -53,7 +55,8 @@
     "file-bytes": "^2.0.1",
     "globby": "^6.1.0",
     "pify": "^2.3.0",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "ava": "^0.18.1",
@@ -69,5 +72,6 @@
   },
   "xo": {
     "space": true
-  }
+  },
+  "snyk": true
 }
