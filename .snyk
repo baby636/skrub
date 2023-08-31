@@ -1,0 +1,107 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ava > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:debug:20170905'
+        path: ava > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:debug:20170905'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+  'npm:extend:20180424':
+    - ava > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:extend:20180424'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > extend
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:extend:20180424'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - ava > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - ava > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          ava > chokidar > fsevents > node-pre-gyp > request > hawk > boom >
+          hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom
+          > hoek
+    - ava > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          ava > chokidar > fsevents > node-pre-gyp > request > hawk > sntp >
+          hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp
+          > hoek
+  'npm:ms:20170412':
+    - ava > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:ms:20170412'
+        path: ava > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:ms:20170412'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+  'npm:qs:20170213':
+    - ava > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:qs:20170213'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > qs
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:qs:20170213'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > qs
+  'npm:stringstream:20180511':
+    - ava > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:stringstream:20180511'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > stringstream
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - ava > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:tough-cookie:20170905'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > tough-cookie
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - ava > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: ava > chokidar > fsevents > node-pre-gyp > request > tunnel-agent
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-31T14:46:11.924Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
